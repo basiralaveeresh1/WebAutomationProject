@@ -28,3 +28,7 @@ def test_Login_Page():
     #print(driver.save_screenshot("Failed Login description.png"))
     print("Test case is passed")
     time.sleep(3)
+    #driver.save_screenshot()
+    #driver.get_screenshot_as_png()
+    #driver.get_screenshot_as_base64()
+    #driver.get_screenshot_as_file()
