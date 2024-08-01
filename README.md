@@ -1,19 +1,18 @@
-# Python Web Automation Programs 
+## Python Web Automation Programs 
 ##'pip install pytest pytest-html selenium allure-pytest openpyxl'
 
 
-### import time
-### import allure
-### import pytest
-### from allure_commons.types import AttachmentType
-### from selenium import webdriver
-### from selenium.webdriver.common.by import By
+'''import time
+import allure
+import pytest
+from allure_commons.types import AttachmentType
+from selenium import webdriver
+from selenium.webdriver.common.by import By
 
-
-## @pytest.mark.smoke
-## @allure.title("Verifying the Login page")
-## @allure.description("TC#1: Please verify the Login Page ")
-## def test_Login_Page():
+@pytest.mark.smoke
+@allure.title("Verifying the Login page")
+@allure.description("TC#1: Please verify the Login Page ")
+def test_Login_Page():
     ''' driver = webdriver.Chrome()
     driver.get("https://katalon-demo-cura.herokuapp.com/")
     listof_a_tags = driver.find_elements(By.TAG_NAME, 'a')
