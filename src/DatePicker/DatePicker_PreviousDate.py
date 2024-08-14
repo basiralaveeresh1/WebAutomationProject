@@ -6,7 +6,6 @@ def test_Date_Picker():
     driver = webdriver.Chrome()
     driver.get("https://jqueryui.com/datepicker/")
     driver.maximize_window()
-
     #First navigate inot the Iframe
     driver.switch_to.frame(0)
     # or
